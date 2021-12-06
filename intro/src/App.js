@@ -41,7 +41,7 @@ export default class App extends Component {
   };
 
   render() {
-    let productInfo = { title: "Product List" }; // TEKRAR BAK Bİ SIK ANLAMADIM
+    let productInfo = { title: "Product List" };
     let categoryInfo = { title: "Category List" };
 
     return (
