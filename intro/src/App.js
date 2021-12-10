@@ -3,6 +3,11 @@ import CategoryList from "./CategoryList";
 import Navi from "./Navi";
 import ProductList from "./ProductList";
 import { Col, Container, Row } from "reactstrap";
+import alertify from "alertifyjs";
+import { Route, Switch } from "react-router-dom";
+
+import NotFound from "./NotFound";
+import CartList from "./CartList";
 
 export default class App extends Component {
   state = { currentCategory: "", products: [], cart: [] };
@@ -38,6 +43,13 @@ export default class App extends Component {
       newCart.push({ product: product, quantity: 1 });
     }
     this.setState({ cart: newCart });
+    alertify.success(product.productName + " added to cart!", 2);
+  };
+
+  removeFromCart = (product) => {
+    let newCart = this.state.cart.filter((c) => c.product.id !== product.id); //arraydaki elemanları şarta göre filtreliyor
+    this.setState({ cart: newCart });
+    alertify.error(product.productName + " removed from cart!", 2);
   };
 
   render() {
@@ -45,9 +57,9 @@ export default class App extends Component {
     let categoryInfo = { title: "Category List" };
 
     return (
-      <div >
-        <Container >
-          <Navi cart={this.state.cart} />
+      <div>
+        <Container>
+          <Navi removeFromCart={this.removeFromCart} cart={this.state.cart} />
 
           <Row>
             <Col xs="3">
@@ -58,12 +70,30 @@ export default class App extends Component {
               />
             </Col>
             <Col xs="9">
-              <ProductList
-                products={this.state.products}
-                addToCart={this.addToCart}
-                currentCategory={this.state.currentCategory}
-                info={productInfo}
-              />
+              <Switch>
+                <Route
+                  exact
+                  path="/"
+                  render={props=> (
+                    <ProductList
+                    {...props}
+                      products={this.state.products}
+                      addToCart={this.addToCart}
+                      currentCategory={this.state.currentCategory}
+                      info={productInfo}
+                    />
+                  )}
+                />
+                <Route exact path="/cart"   render={props=> (
+                    <CartList
+                    {...props}
+                      cart={this.state.cart}
+                      removeFromCart={this.removeFromCart}
+                    />
+                  )} />
+                <Route component={NotFound }></Route>
+              </Switch>
+              
             </Col>
           </Row>
         </Container>

@@ -620,43 +620,43 @@
   "categories": [
     {
       "id": 1,
-      "categoryName": "Kategori 1",
-      "seoUrl": "beverages"
+      "categoryName": "Filtre 1",
+      "seoUrl": "Filtre1"
     },
     {
       "id": 2,
-      "categoryName": "Kategori 2",
-      "seoUrl": "condiments"
+      "categoryName": "Filtre 2",
+      "seoUrl": "Filtre2"
     },
     {
       "id": 3,
-      "categoryName": "Confections",
-      "seoUrl": "confections"
+      "categoryName": "Filtre 3",
+      "seoUrl": "Filtre3"
     },
     {
       "id": 4,
-      "categoryName": "Dairy Products",
-      "seoUrl": "dairy-products"
+      "categoryName": "Filtre 4",
+      "seoUrl": "Filtre4"
     },
     {
       "id": 5,
-      "categoryName": "Grains/Cereals",
-      "seoUrl": "grains-cereals"
+      "categoryName": "Filtre 5",
+      "seoUrl": "Filtre5"
     },
     {
       "id": 6,
-      "categoryName": "Meat/Poultry",
-      "seoUrl": "meat-poultry"
+      "categoryName": "Filtre 6",
+      "seoUrl": "Filtre6"
     },
     {
       "id": 7,
-      "categoryName": "Produce",
-      "seoUrl": "produce"
+      "categoryName": "Filtre 7",
+      "seoUrl": "Filtre7"
     },
     {
       "id": 8,
-      "categoryName": "Seafood",
-      "seoUrl": "seafood"
+      "categoryName": "Filtre 8",
+      "seoUrl": "Filtre8"
     }
   ]
 }
