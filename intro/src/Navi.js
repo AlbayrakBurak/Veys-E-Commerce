@@ -25,21 +25,27 @@ export default class Navi extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark"  dark  expand="md" >
+        <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">Veys</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar></Collapse>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components">Components</NavLink>
+              <NavLink href="/form1">FormDemo</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/form2">FormDemo2</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
                 GitHub
               </NavLink>
             </NavItem>
-            <CartSummary removeFromCart={this.props.removeFromCart} cart={this.props.cart}/>
-            </Nav>
+            <CartSummary
+              removeFromCart={this.props.removeFromCart}
+              cart={this.props.cart}
+            />
+          </Nav>
         </Navbar>
       </div>
     );
