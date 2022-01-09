@@ -3,17 +3,17 @@
     {
       "id": 1,
       "categoryId": 2,
-      "productName": "Chai",
+      "productName": "Yazılım",
       "quantityPerUnit": "48 - 6 oz jars",
-      "unitPrice": "24",
-      "unitsInStock": 53
+      "unitPrice": "55",
+      "unitsInStock": "123"
     },
     {
       "id": 2,
       "categoryId": 1,
       "productName": "Chang",
       "quantityPerUnit": "24 - 12 oz bottles",
-      "unitPrice": "21",
+      "unitPrice": "55",
       "unitsInStock": 17
     },
     {
@@ -21,12 +21,12 @@
       "categoryId": 1,
       "productName": "Chef Anton's Cajun Seasoning",
       "quantityPerUnit": "48 - 6 oz jars",
-      "unitPrice": "222",
+      "unitPrice": "22 ",
       "unitsInStock": 53
     },
     {
       "id": 5,
-      "categoryId": 2,
+      "categoryId": 6,
       "productName": "Chef Anton's Gumbo Mix",
       "quantityPerUnit": "36 boxes",
       "unitPrice": "21",
@@ -37,7 +37,7 @@
       "categoryId": 2,
       "productName": "Grandma's Boysenberry Spread",
       "quantityPerUnit": "12 - 8 oz jars",
-      "unitPrice": 25,
+      "unitPrice": "25",
       "unitsInStock": 120
     },
     {
@@ -615,6 +615,30 @@
       "quantityPerUnit": "1",
       "unitsInStock": "2",
       "id": 78
+    },
+    {
+      "productName": "Yasin",
+      "categoryId": 1,
+      "unitPrice": "1",
+      "quantityPerUnit": "1",
+      "unitsInStock": "1",
+      "id": 79
+    },
+    {
+      "productName": "Çay",
+      "categoryId": 8,
+      "unitPrice": "20",
+      "quantityPerUnit": "20",
+      "unitsInStock": "1000",
+      "id": 80
+    },
+    {
+      "productName": "Web Programlama",
+      "categoryId": 1,
+      "unitPrice": "5555",
+      "quantityPerUnit": "200",
+      "unitsInStock": "1000",
+      "id": 81
     }
   ],
   "categories": [
