@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-First run Veys\api> json-server --watch db.json 
-Also starting db.json and open new terminal so web-application.
+First run Veys\api > json-server --watch db.json
+  db.json will start and open new terminal run the web application by typing npm start it will run on port 3001.
 
 ### `npm start`
 
