@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+First run Veys\api> json-server --watch db.json 
+Also starting db.json and open new terminal so web-application.
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
