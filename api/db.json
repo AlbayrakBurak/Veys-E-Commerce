@@ -11,7 +11,7 @@
     {
       "id": 2,
       "categoryId": 1,
-      "productName": "Chang",
+      "productName": "Burak ALBAYRAK",
       "quantityPerUnit": "24 - 12 oz bottles",
       "unitPrice": "55",
       "unitsInStock": 17
@@ -639,6 +639,30 @@
       "quantityPerUnit": "200",
       "unitsInStock": "1000",
       "id": 81
+    },
+    {
+      "productName": "Can",
+      "categoryId": 1,
+      "unitPrice": "1231",
+      "quantityPerUnit": "1231311",
+      "unitsInStock": "123131",
+      "id": 82
+    },
+    {
+      "productName": "Web Programlamaa",
+      "categoryId": 8,
+      "unitPrice": "244",
+      "quantityPerUnit": "145",
+      "unitsInStock": "23",
+      "id": 83
+    },
+    {
+      "productName": "asfdafaafafafa",
+      "categoryId": 5,
+      "unitPrice": "123131",
+      "quantityPerUnit": "12412141",
+      "unitsInStock": "1231231",
+      "id": 84
     }
   ],
   "categories": [
