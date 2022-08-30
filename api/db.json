@@ -663,6 +663,14 @@
       "quantityPerUnit": "12412141",
       "unitsInStock": "1231231",
       "id": 84
+    },
+    {
+      "productName": "Ömer Yağcı",
+      "categoryId": 1,
+      "unitPrice": "31",
+      "quantityPerUnit": "31",
+      "unitsInStock": "31",
+      "id": 85
     }
   ],
   "categories": [
